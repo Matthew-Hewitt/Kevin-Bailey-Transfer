@@ -63,13 +63,13 @@
       <div class="inner">
 
         <header style="text-align:center;">
-          <h1>Tree-Sprite-International</h1>
-          function play(audio) {
+          <h1>Tree-Sprite-Anthems</h1>
+        <script>  function play(audio) {
     audio.play();
     return new Promise(function(resolve, reject) {
         audio.addEventListener('ended', resolve);
     });
-}
+          }</script>
 
 function myFunction() {
     var audio1 = new Audio('1_Bubble.mp3');
@@ -95,8 +95,10 @@ function myFunction() {
     });
 }
           
-          <h1>CARENET</h1>
-<image src="carenet logo31.jpg" alt="Carenet" style="width:50%; height:50%;">
+          <h1>Anthems</h1>
+          <button onclick="myFunction()">play anthems</button>
+          
+<image src="carenet logo31.jpg" alt="Carenet Anthems" style="width:50%; height:50%;">
 
     
         </header>
