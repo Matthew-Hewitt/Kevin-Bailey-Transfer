@@ -90,7 +90,9 @@
 
     play(audio1).then(function() {
         return play(audio2);
+    }).then(function() { return play(audio4);
     }).then(function() {
+      
         return play(audio3);
     });
 }
