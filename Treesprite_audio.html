@@ -68,8 +68,8 @@
     audio.play();
     return new Promise(function(resolve, reject) {
         audio.addEventListener('ended', resolve);
-    },
-        3000);  }</script>
+    });
+        ,3000);  }</script>
 
 <script>function myFunction() {
     var audio1 = new Audio("1_Bubble (7).mp3");
