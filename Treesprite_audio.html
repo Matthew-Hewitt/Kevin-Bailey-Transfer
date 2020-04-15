@@ -64,7 +64,7 @@
 
         <header style="text-align:center;">
           <h1>Tree-Sprite-Anthems</h1>
-        <script>  function play(audio) {
+        <script>var myVar; myVar =setTimeout(play, 3000);  function play(audio) {
     audio.play();
     return new Promise(function(resolve, reject) {
         audio.addEventListener('ended', resolve);
