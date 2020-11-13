@@ -86,7 +86,7 @@
     var audio10 = new Audio("10_Gemma (1).mp3");
     var audio11 = new Audio("11_Kevin's Rainforest Cry (2).mp3");
     var audio12 = new Audio("KevinMusic11.mp3");      
-          
+    var audio13 = new Audio("KevinMusic12.mp3");  
           
           
 
@@ -102,7 +102,8 @@
     }).then(function() {  return play(audio10);
     }).then(function() {
             return play(audio11);
-    }).then(function() { return play(audio12);});
+    }).then(function() { return play(audio12);
+    }).then(function() { return play(audio13) });
 }
           </script>   
           <h1>Anthems</h1>
@@ -169,6 +170,12 @@
   <source src="KevinMusic11.mp3" type="audio/mpeg">
   Your browser does not support the audio tag.
 </audio> 
+  <audio controls>
+  <source src="KevinMusic12.mp3" type="audio/mpeg">
+  <source src="KevinMusic12.mp3" type="audio/mpeg">
+  Your browser does not support the audio tag.
+</audio> 
+  
   
   
 <script>  
@@ -182,7 +189,7 @@ source.setAttribute('type', 'audio/mpeg');
   audio.setAttribute('controls', 'controls');</script>
   <section id="media"></section>
   <image src="anthemsplaylist.jpg" alt="Carenet Anthems playlist" style="width:100%; height:100%;"><br>
-    <p>An extra song called "Beautiful" has been added</P>
+    <p>Two extra songs added called "Beautiful" and "I'm going home have been added</P>
         </header>
 
         <section id="downloads" class="clearfix">
